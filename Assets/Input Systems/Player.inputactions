@@ -17,43 +17,13 @@
                     "priority": 0
                 },
                 {
-                    "name": "Move",
+                    "name": "Mover",
                     "type": "Value",
                     "id": "ce1984d2-eedc-4df7-a57c-a2afa0faaa6d",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true,
-                    "priority": 0
-                },
-                {
-                    "name": "Disparo",
-                    "type": "Button",
-                    "id": "99ab6207-4e25-4ca0-acab-5e80e8d2322c",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
-                },
-                {
-                    "name": "Acelerar",
-                    "type": "Value",
-                    "id": "41b633fc-0fa2-48ec-906e-4a8ee4ed3dc4",
-                    "expectedControlType": "Axis",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
-                },
-                {
-                    "name": "SuperAtaque",
-                    "type": "Button",
-                    "id": "4ed02691-2709-4632-a1e1-d473e3dc3475",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "Hold(duration=1)",
-                    "initialStateCheck": false,
                     "priority": 0
                 }
             ],
@@ -65,7 +35,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "Mover",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -76,7 +46,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "Mover",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -87,7 +57,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "Mover",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -98,7 +68,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "Mover",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -109,7 +79,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "Mover",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -120,7 +90,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "Mover",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -131,7 +101,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "Mover",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -142,7 +112,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "Mover",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -153,7 +123,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "Mover",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -164,7 +134,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "Mover",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -187,72 +157,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "Salto",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "50027cbb-9add-4e9e-bbb0-b285815a6bcc",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Disparo",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "e7025ec2-b1a8-4433-b28f-5a093e5ed557",
-                    "path": "<Gamepad>/rightTrigger",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Disparo",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "9ab44463-1604-4004-a91a-9fed047bbbf8",
-                    "path": "<Gamepad>/leftTrigger",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Acelerar",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "cec4353c-ccf6-46d1-8aab-88682e4d8883",
-                    "path": "<Keyboard>/upArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Acelerar",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "5abc2cb8-e45b-419a-9160-ff7334f80943",
-                    "path": "<Keyboard>/e",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "SuperAtaque",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "9bd54c53-0068-4dda-b8a4-a7c58922b64b",
-                    "path": "<Gamepad>/buttonNorth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "SuperAtaque",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
